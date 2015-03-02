@@ -1,0 +1,212 @@
+
+.body {	text-align:center; padding:0px 0px;}
+
+/*  CSS Layout
+----------------------------------------------- */
+
+div#container
+{
+    margin:0 auto;
+    text-align:left;
+    border:0px solid #FFFFFF;
+}
+
+div#content
+{
+    float:left;
+    width:70%;
+    border-left: 1px dotted #CCC;
+    position:relative;
+    z-index:1;
+}
+
+div#navigation
+{
+    height:70px;
+    background: #927F6E;
+    padding:2px;
+}
+
+div.verlauf {
+    height: 1px;
+    width:100%;
+    background: transparent none repeat scroll 0 0 !important ;
+    font-size:1px;
+    line-height:1px;
+}
+
+div#sidebar
+{
+    float:left;
+    clear:left;
+    width:20%;
+    position:relative;
+    z-index:2;
+}
+
+
+
+div#emotion .n {padding:0px;}
+div#emotion {background-color:white;}
+
+div#footer
+{
+    clear:both;
+    width:100%;
+}
+
+div#footer { background-color: #927F6E; }
+
+
+/* gutter */
+
+div#content .gutter { padding: 10px 10px 20px 10px; }
+div#sidebar .gutter { padding: 0px 20px; }
+div#footer .gutter{ padding: 10px; }
+
+
+/*  MainNav Level 1
+----------------------------------------------- */
+
+ul.mainNav1
+{
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-decoration: none;
+    background: #927F6E;
+    width: 100%;
+
+}
+
+ul.mainNav1 li
+{
+    display: block;
+    float:left;
+    padding: 0px;
+    background: #927F6E;
+}
+
+ul.mainNav1 li a,
+ul.mainNav1 li a:visited
+{
+    display: block;
+    float:left;
+    margin:0px;
+    padding: 10px 25px 10px 25px;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight:normal;
+    background: #927F6E;
+}
+
+
+ul.mainNav1 li a:hover,
+ul.mainNav1 li a.current
+{
+    margin:0px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight:bold;
+
+}
+
+
+/*  SunbNav Level 2
+----------------------------------------------- */
+
+ul.mainNav2
+{
+    margin:0 0 0 20px;
+    padding: 0px;
+    display: block;
+    list-style: none;
+
+}
+
+ul.mainNav2 li
+{
+    display: block;
+}
+
+ul.mainNav2 li a,
+ul.mainNav2 li a:visited
+{
+    display: block;
+    margin: 0 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+ul.mainNav2 li a:hover,
+ul.mainNav2 li a.current
+{
+    text-decoration:none;
+    margin: 0 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    border-left: 10px solid #927F6E;
+}
+
+/*  SunbNav Level 3
+----------------------------------------------- */
+
+ul.mainNav3
+{
+    margin:0 0 0 20px;
+    list-style: none;
+    display: block;
+    padding: 0px 5px 20px 5px;
+}
+
+
+ul.mainNav3 li
+{
+    display: block;
+}
+
+
+ul.mainNav3 li a,
+ul.mainNav3 li a:visited
+{
+    display: block;
+    margin:0px;
+    padding: 3px 10px 3px 10px;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+ul.mainNav3 li a:hover,
+ul.mainNav3 li a.current
+{
+    margin:0px;
+    padding: 3px 10px 3px 10px;
+    background-image: none;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+    border:0px;
+
+}
+.betreuungsartenover {
+    margin-top:0.8%;
+    padding:0;
+    height:5px;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+.betreuungsarten {
+    visibility:hidden;
+    font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width:20px;
+}
+.betreuungsartenover:hover .betreuungsarten{
+    visibility:visible;
+    position:relative;
+    width:50px;
+
+}
